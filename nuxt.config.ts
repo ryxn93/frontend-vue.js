@@ -2,9 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-   future: {
-    compatibilityVersion: 4,
-  },
+
+  future: {
+   compatibilityVersion: 4,
+ },
+
   experimental: {
     scanPageMeta: 'after-resolve',
     sharedPrerenderData: false,
@@ -23,9 +25,12 @@ export default defineNuxtConfig({
       }
     }
   },
+
   unhead: {
     renderSSRHeadOptions: {
       omitLineBreaks: false
     }
-  }
+  },
+
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image']
 })
