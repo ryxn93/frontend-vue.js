@@ -39,7 +39,7 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Toko Bagus</a>
+        <a href="#" class="text-sm/6 font-semibold text-gray-900">Berkah Store</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="#" class="text-sm/6 font-semibold text-gray-900"

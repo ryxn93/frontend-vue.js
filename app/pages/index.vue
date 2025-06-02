@@ -10,7 +10,7 @@
       <h2
         class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900"
       >
-        Login Toko SoleBrothers
+        Login
       </h2>
     </div>
 
@@ -69,8 +69,8 @@
           </div>
         </div>
         <div class="flex flex-row justify-between">
-          <NuxtLink to="/register" class="ml-auto text-indigo-600 pb-3"
-            >belom punya akun? daftar dulu</NuxtLink
+          <NuxtLink to="/register" class="ml-auto font-semibold text-indigo-600 pb-3"
+            >Belum punya akun? Daftar di sini</NuxtLink
           >
         </div>
 
@@ -84,12 +84,6 @@
         </div>
       </Form>
 
-      <p class="mt-10 text-center text-sm/6 text-gray-500">
-        Not a member?
-        <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500"
-          >Start a 14 day free trial</a
-        >
-      </p>
     </div>
   </div>
 </template>

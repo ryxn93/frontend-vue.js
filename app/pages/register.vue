@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="flex flex-row justify-between">
-          <NuxtLink to="/" class="ml-auto font-semibold text-indigo-600 hover:text-indigo-500">Silahkan masuk jika memiliki akun</NuxtLink>
+          <NuxtLink to="/" class="ml-auto font-semibold text-indigo-600 hover:text-indigo-500">Sudah punya akun? Masuk di sini</NuxtLink>
         </div>
 
         <div class="flex flex-row justify-between">
@@ -61,10 +61,6 @@
         </div>
       </Form>
 
-      <p class="mt-10 text-center text-sm/6 text-gray-500">
-        Not a member?
-        <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">Start a 14 day free trial</a>
-      </p>
     </div>
   </div>
 </template>
